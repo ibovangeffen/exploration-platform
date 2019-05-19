@@ -129,7 +129,7 @@
 @endsection
 
 @section('js-eventlisteners')
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZMWgX0_LuX-Ozhc51bra0bo-PJU4lv0A&callback=initMap" async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key={Your key here}&callback=initMap" async defer></script>
 	<script type="application/javascript">
 		window.addEventListener('load', function() {
 
